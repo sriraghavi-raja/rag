@@ -1,0 +1,35 @@
+.grid{
+ ;
+    display: inline-block;
+
+    width:fit-content;
+    height:fit-content;
+    box-sizing: border-box ;
+   
+    justify-content: center;
+
+}
+.even{
+    
+    
+    float: left;
+    width:50px;
+    height:50px;
+    display: flex;
+    padding:20px;
+    text-align: center;
+    background-color: #70abea;
+    box-sizing: border-box;
+    
+}
+.odd{
+    float: left;
+    text-align: center;
+    width:50px;
+    height:50px;
+    display: flex;
+    background-color: #fbfbfb;
+    padding: 20px;
+    box-sizing: border-box
+}
+
